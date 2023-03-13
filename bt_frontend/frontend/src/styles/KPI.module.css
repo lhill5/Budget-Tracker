@@ -1,0 +1,51 @@
+.kpi-grid {
+  grid-area: kpi-grid;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 100%;
+  width: 75%;
+}
+
+.kpi {
+  width: 100%;
+  height: 6.5rem;
+
+  background-color: #7f5af0;
+  color: white;
+  border-radius: 5px;
+
+  font-size: 1em;
+  font-family: monospace;
+  text-align: center;
+}
+
+.kpi_value {
+  font-size: 1.5em;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.kpi_title {
+  font-size: 1.6em;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.net_worth {
+  background-image: linear-gradient(to right, #39a0ca, #3988ca);
+  grid-area: net_worth;
+}
+
+.inflow {
+  background-image: linear-gradient(to right, #559f6a, #6bb07f);
+  grid-area: inflow;
+}
+
+.expenses {
+  background-image: linear-gradient(to right, #7f5af0, #985af0);
+  grid-area: expenses;
+}

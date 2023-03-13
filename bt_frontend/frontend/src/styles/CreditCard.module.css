@@ -1,0 +1,46 @@
+.credit-card {
+  background: linear-gradient(to bottom right, #009ffd, #2a2a72);
+  width: 90%;
+  height: 47.5%;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "acc_name acc_name"
+    "balance chip";
+  box-shadow: 14px 14px 100px 1px rgba(255, 255, 255, 0.45);
+  /* margin-top: 0.6rem; */
+  border-radius: 0.5rem;
+}
+
+.bar {
+  grid-area: header;
+  background-color: black;
+
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.acc-name {
+  grid-area: acc_name;
+  margin-left: 1.5rem;
+  font-size: 1.35em;
+  display: flex;
+  align-self: center;
+}
+
+.balance {
+  grid-area: balance;
+  margin-left: 1.5rem;
+  font-size: 1.4em;
+  display: flex;
+  align-self: center;
+}
+
+.chip {
+  grid-area: chip;
+  width: 5rem;
+  height: 4rem;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}

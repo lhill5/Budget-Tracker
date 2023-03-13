@@ -1,0 +1,106 @@
+import styles from "../styles/Transactions.module.css";
+
+const Transactions = () => {
+  return (
+    <div className={styles.transactions}>
+      <table className={styles["txn-table"]}>
+        <thead className={styles["txn-header"]}>
+          <tr>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Team</th>
+            <th>Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Domenic</td>
+            <td>88,110</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sally</td>
+            <td>72,400</td>
+            <td>Students</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Nick</td>
+            <td>52,300</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Domenic</td>
+            <td>88,110</td>
+            <td>dcode</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Domenic</td>
+            <td>88,110</td>
+            <td>dcode</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
+};
+
+export default Transactions;

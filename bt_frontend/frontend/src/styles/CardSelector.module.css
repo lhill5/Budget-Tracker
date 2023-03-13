@@ -1,0 +1,55 @@
+.credit-card {
+  /* margin-top: 1rem; */
+  padding: 0;
+
+  background: linear-gradient(to bottom right, #009ffd, #2a2a72);
+  width: 80%;
+  height: 20vh;
+  display: grid;
+  grid-template-areas:
+    "acc_name acc_name"
+    "balance chip";
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr 1.5fr;
+  box-shadow: 14px 14px 100px 1px rgba(255, 255, 255, 0.45);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.bar {
+  grid-area: header;
+  background-color: black;
+
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 1rem;
+}
+
+.acc-name {
+  grid-area: acc_name;
+  margin-left: 1.5rem;
+  font-size: 2.25em;
+  display: flex;
+  align-self: center;
+  width: 80%;
+  background-color: transparent;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.balance {
+  grid-area: balance;
+  margin-left: 1.5rem;
+  font-size: 1.95em;
+  display: flex;
+  align-self: center;
+}
+
+.chip {
+  grid-area: chip;
+  width: 5rem;
+  height: 4rem;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}

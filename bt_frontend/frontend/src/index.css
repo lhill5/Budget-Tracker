@@ -1,0 +1,107 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #364055;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: roboto;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --bg: #242526;
+  --bg-accent: #484a4d;
+  --text-color: #dadce1;
+  --nav-size: 5rem;
+  --border: 1px solid #474a4d;
+  --border-radius: 8px;
+  --speed: 500ms;
+
+  font-size: 16px;
+  font-family: "Open Sans";
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 300ms;
+
+  --background-red: linear-gradient(
+    to top right,
+    rgb(162, 20, 26),
+    rgb(227, 95, 97)
+  );
+  --background-light-blue: linear-gradient(to top right, #1f51ff, #1f9eff);
+  --background-orange: linear-gradient(to top right, #e67615, #ec8817d0);
+  --background-green: linear-gradient(to top right, #275a32, #64936e);
+  --background-purple: linear-gradient(to top right, #171355, #5a5097);
+  --background-aqua: linear-gradient(
+    to top right,
+    rgb(83, 163, 144),
+    rgb(154, 227, 209)
+  );
+  --background-blue: linear-gradient(to top right, #1131a3, #5571da);
+  --background-light-purple: linear-gradient(
+    to top right,
+    rgb(112, 38, 172),
+    rgb(172, 106, 227)
+  );
+  --background-black: linear-gradient(
+    to top right,
+    rgb(21, 21, 21),
+    rgb(90, 90, 90)
+  );
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+/* background: #e4edf1; */
+/* background: #212121; */

@@ -1,0 +1,10 @@
+.main {
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    'net_worth inflow expenses'
+    'net_worth_chart net_worth_chart net_worth_chart';
+    /* grid-template-rows: 1fr auto; */
+    align-items: center;
+    justify-items: center;
+}
